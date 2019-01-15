@@ -43,8 +43,8 @@ contract SupplyChain {
         uint sku;
         uint price;
         State state;
-        address seller;
-        address buyer;
+        address payable seller;
+        address payable buyer;
     }
 
     /* Create 4 events with the same name as each possible State (see above)
